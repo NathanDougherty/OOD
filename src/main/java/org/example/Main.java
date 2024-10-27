@@ -10,7 +10,14 @@ import players.PlayerImpl;
 
 import java.util.List;
 
+
 public class Main {
+  /**
+   * The main method initializes the game components including the grid, players, and card deck
+   * which starts the game
+   *
+   * @param args command-line argument
+   */
   public static void main(String[] args) {
     // Create a 3x3 grid
     Grid grid = new Grid(3, 3);
